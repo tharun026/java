@@ -2,7 +2,7 @@ package primitivedatatypes;
 
 public class FloatAndDouble {
 
-    public static void main(StringLiteral args[]) {
+    public static void main(String args[]) {
 
         float minimumFloatNumber = Float.MIN_VALUE;
         float maximumFloatNumber = Float.MAX_VALUE;

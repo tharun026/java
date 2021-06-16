@@ -2,7 +2,7 @@ package primitivedatatypes;
 
 public class DataTypes {
 
-    public static void main(StringLiteral args[]) {
+    public static void main(String args[]) {
         int maximumIntegerNumber = Integer.MAX_VALUE;
         int minimumIntegerNumber = Integer.MIN_VALUE;
         System.out.println("minimumIntegerNumber = " + minimumIntegerNumber);
