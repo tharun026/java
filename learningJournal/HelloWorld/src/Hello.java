@@ -1,3 +1,5 @@
+import classes.BankAccount;
+
 public class Hello {
 
     public static void main(String args[]) {
@@ -11,6 +13,16 @@ public class Hello {
 
         int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
         System.out.println("My Total: " + myTotal);
+
+        BankAccount tharun = new BankAccount();
+        tharun.setAccountNumber("10001");
+        tharun.setBalance(25000);
+        tharun.setCustomerName("Tharun Kumar Sekar");
+        tharun.setEmail("tharun026@gmail.com");
+        tharun.setPhoneNumber("9500753660");
+
+        tharun.depositFunds(2000);
+        tharun.withdrawFunds(30000);
     }
 
 }
